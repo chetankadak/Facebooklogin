@@ -9,7 +9,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class loginBaseC {
 
 	public static String browser="chrome";
-	public static String URL="https://en-gb.facebook.com/reg";                  //https://fb.com //https://en-gb.facebook.com/reg/
+	public static String URL="https://fb.com";                   //https://en-gb.facebook.com/reg/        //
 	public static WebDriver driver;
 //https://www.google.com/
 	public static void browserInitzation(String browser,String URL)

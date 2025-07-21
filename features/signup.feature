@@ -3,7 +3,7 @@
 Feature: Sign Up feature
   I want to create a new facebook acount
 
- @smoketesting
+ @smoketesting @regressiontesting
   Scenario: create facebook acount
     Given user is on facebook signup page
     When user enter firstname "Vikshita"
@@ -16,7 +16,7 @@ Feature: Sign Up feature
     And user select the text "1"
     And user enter mobile number "8521478960"
     And user enter password "14522qa"
-     And user clicks on sign up
+    And user clicks on sign up
     Then close the browser
 
  @Systemintegrationtesting

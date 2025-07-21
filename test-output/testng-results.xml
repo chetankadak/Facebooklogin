@@ -1,47 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-18T11:34:17 IST" name="Suite" finished-at="2025-07-18T11:34:26 IST" duration-ms="8472">
+  <suite started-at="2025-07-21T11:58:07 IST" name="Suite" finished-at="2025-07-21T11:58:11 IST" duration-ms="3456">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runnerclass@dd0c991]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-07-18T11:34:17 IST" name="login feature" finished-at="2025-07-18T11:34:26 IST" duration-ms="8472">
-      <class name="Runner.Runnerclass">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.Runnerclass@dd0c991]" started-at="2025-07-18T11:34:17 IST" name="setUpClass" finished-at="2025-07-18T11:34:18 IST" duration-ms="559" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@52a7928a]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2025-07-21T11:58:07 IST" name="regression testing" finished-at="2025-07-21T11:58:11 IST" duration-ms="3456">
+      <class name="T1.C1">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:T1.C1@55f616cf]" started-at="2025-07-21T11:58:07 IST" name="BeforeTest" finished-at="2025-07-21T11:58:07 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runnerclass@dd0c991]" started-at="2025-07-18T11:34:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-07-18T11:34:26 IST" duration-ms="7634" status="PASS">
+        </test-method> <!-- BeforeTest -->
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:T1.C1@55f616cf]" started-at="2025-07-21T11:58:07 IST" name="BeforeClass" finished-at="2025-07-21T11:58:10 IST" duration-ms="3183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:T1.C1@55f616cf]" started-at="2025-07-21T11:58:10 IST" name="BeforeMethod" finished-at="2025-07-21T11:58:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="Test2()[pri:1, instance:T1.C1@55f616cf]" started-at="2025-07-21T11:58:10 IST" name="Test2" finished-at="2025-07-21T11:58:10 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:T1.C1@55f616cf]" started-at="2025-07-21T11:58:10 IST" name="AfterMethod" finished-at="2025-07-21T11:58:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:T1.C1@55f616cf]" started-at="2025-07-21T11:58:10 IST" name="BeforeMethod" finished-at="2025-07-21T11:58:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="Test1(java.lang.String,java.lang.String)[pri:2, instance:T1.C1@55f616cf]" started-at="2025-07-21T11:58:10 IST" name="Test1" finished-at="2025-07-21T11:58:11 IST" duration-ms="198" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["create facebook acount"]]>
+                <![CDATA[testing@gmaial.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Sign Up feature"]]>
+                <![CDATA[testing123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.Runnerclass@dd0c991]" started-at="2025-07-18T11:34:26 IST" name="tearDownClass" finished-at="2025-07-18T11:34:26 IST" duration-ms="243" status="PASS">
+        </test-method> <!-- Test1 -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:T1.C1@55f616cf]" started-at="2025-07-21T11:58:11 IST" name="AfterMethod" finished-at="2025-07-21T11:58:11 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- Runner.Runnerclass -->
-    </test> <!-- login feature -->
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:T1.C1@55f616cf]" started-at="2025-07-21T11:58:11 IST" name="AfterTest" finished-at="2025-07-21T11:58:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:T1.C1@55f616cf]" started-at="2025-07-21T11:58:11 IST" name="AfterClass" finished-at="2025-07-21T11:58:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- T1.C1 -->
+    </test> <!-- regression testing -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <parameter name="passwordid" value="param-val-not-found"/>
+  <parameter name="emailid" value="param-val-not-found"/>
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Runner.Runnerclass">
+      <class name="T1.C1">
         <methods>
-          <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
-          <include name="tearDownClass"/>
+          <include name="BeforeTest"/>
+          <include name="BeforeMethod"/>
+          <include name="AfterTest"/>
+          <include name="AfterClass"/>
+          <include name="Test1"/>
+          <include name="AfterMethod"/>
+          <include name="BeforeClass"/>
         </methods>
-      </class> <!-- Runner.Runnerclass -->
+      </class> <!-- T1.C1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

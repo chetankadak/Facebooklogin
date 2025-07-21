@@ -138,9 +138,9 @@ public class fbsignupStepDefinations extends signupPage{
 		clickSignup(signupClick);
 	}
 	
-	@Then("close the browser")
-	public static void close_the_browser()
-	{
-		browser_Close();
-	}
+//	@Then("close the browser")
+//	public static void close_the_browser()
+//	{
+//		browser_Close();
+//	}
 }

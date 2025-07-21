@@ -3,13 +3,17 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="login feature(failed)">
     <classes>
-      <class name="Runner.Runnerclass">
+      <class name="T1.C1">
         <methods>
-          <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
-          <include name="tearDownClass"/>
+          <include name="BeforeTest"/>
+          <include name="BeforeMethod"/>
+          <include name="AfterTest"/>
+          <include name="AfterClass"/>
+          <include name="Test1"/>
+          <include name="AfterMethod"/>
+          <include name="BeforeClass"/>
         </methods>
-      </class> <!-- Runner.Runnerclass -->
+      </class> <!-- T1.C1 -->
     </classes>
   </test> <!-- login feature(failed) -->
 </suite> <!-- Failed suite [Suite] -->

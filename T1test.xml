@@ -1,0 +1,11 @@
+
+<suite name="Suite">
+  <test name="regression testing">
+  
+  <parameter name="emailid" value="testing@gmaial.com"/>
+  <parameter name="passwordid" value="testing123"/>
+    <classes>
+      <class name="T1.C1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->  

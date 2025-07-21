@@ -29,8 +29,8 @@ public class fbLoginStepDefination extends loginPageCheck{
 		Enter_password(passwordid, loginPageCheck.EMailpassword);
 	}
 	
-	@When("^user enters valid usernameC\"([^\"]*)\"$")
-	public static void user_enters_valid_usernameC(String Emailid) throws IOException
+	@When("^user enters valid usernameandemail\"([^\"]*)\"$")
+	public static void user_enters_valid_usernameandemail(String Emailid) throws IOException
  {
 		Enter_email(Emailid,loginPageCheck.EMailInput);
 		ExtentCucumberAdapter.addTestStepLog("Entered email");
@@ -38,8 +38,8 @@ public class fbLoginStepDefination extends loginPageCheck{
 		
 	}
 	
-	@When("^user enters valid passwordC\"([^\"]*)\"$")
-	public static void user_enters_valid_passwordC(String password) throws IOException
+	@When("^user enters valid passwordtologin\"([^\"]*)\"$")
+	public static void user_enters_valid_passwordtologin(String password) throws IOException
 	{
 		Enter_password(password,loginPageCheck.EMailpassword);
 		ExtentCucumberAdapter.addTestStepLog("Entered password");
@@ -47,16 +47,16 @@ public class fbLoginStepDefination extends loginPageCheck{
 		
 	}
 	
-	@And("Clicks on submit")
-	public static void Clicks_on_submit() {
+	@And("Clicks on submitbutton")
+	public static void Clicks_on_submitbutton() {
 		Button_login();
 	}
-//	
-//	@And("close the browser")
-//	public static void close_the_browser()
-//	{
-//		browser_Close();
-//	}
+	
+	@And("close the browser")
+	public static void close_the_browser()
+	{
+		browser_Close();
+	}
 
 	
 	
