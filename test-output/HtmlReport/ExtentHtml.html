@@ -49,7 +49,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Jul 20, 2025 05:26:39 PM</span>
+			<span class='label blue darken-3 suite-start-time'>Jul 21, 2025 02:28:37 PM</span>
 			</a>
 		</ul>
 	</div>
@@ -76,9 +76,9 @@
 				<i class='material-icons'>local_offer</i> Category
 				</a>
 				<ul id='category-toggle' class='dropdown-content'>
-					<li><a href='#'>@Systemintegrationtesting</a></li>
-					<li><a href='#'>@regressiontesting</a></li>
 					<li><a href='#'>@smoketesting</a></li>
+					<li><a href='#'>@Systemitegrationtesting</a></li>
+					<li><a href='#'>@regressiontesting</a></li>
 					<li class='divider'></li>
 					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
 				</ul>
@@ -139,7 +139,7 @@
                 </div>
                 <div class='block text-small'>
                     <span class='tooltipped' data-position='top' data-tooltip='100%'>
-                    <span class='strong'>4</span> scenarios passed</span>
+                    <span class='strong'>3</span> scenarios passed</span>
                 </div>
                 <div class='block text-small'>
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
@@ -159,7 +159,7 @@
                 </div>
                 <div class='block text-small'>
                     <span class='tooltipped' data-position='top' data-tooltip='100%'>
-                    <span class='strong'>46</span> steps passed</span>
+                    <span class='strong'>15</span> steps passed</span>
                 </div>
                 <div class='block text-small'>
                     <span class='strong tooltipped' data-position='top' data-tooltip='0%'>
@@ -188,8 +188,8 @@
 			<ul id='test-collection' class='test-collection'>
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>Sign Up feature</span>
-						<span class='test-time'>Jul 20, 2025 05:26:40 PM</span>
+						<span class='test-name'>login feature</span>
+						<span class='test-time'>Jul 21, 2025 02:28:37 PM</span>
 						<span class='test-status right pass'>Pass</span>
 					</div>
 					<div class='test-content hide'>
@@ -199,13 +199,13 @@
 	<a class="btn-floating waves-effect waves-light skip blue" title="skip"><i class='material-icons'>redo</i></a>
 	<a class="btn-floating waves-effect waves-light clear grey" title="clear"><i class='material-icons'>clear</i></a>
 </div>
-	<div class='test-desc'>  I want to create a new facebook acount</div>
+	<div class='test-desc'>We need validate the login feature of test cases</div>
 
 <div class='scenario node' test-id='2' status='pass'>
 
-	<span class='duration right label'>00 00 18.192</span>
+	<span class='duration right label'>00 00 03.803</span>
 	<div class="bdd-test">
-		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario: create facebook acount</div>
+		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario: Validate the login functionality with valid username and password</div>
 	</div>
 	
 	
@@ -216,277 +216,106 @@
 	
 	<ul class='steps'>
 		<li test-id='3' class='node given Pass' status='Pass'>
-			<div class="step-name" title="(StepDefinations.fbsignupStepDefinations.user_is_on_facebook_signup_page())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given user is on facebook signup page</div>
+			<div class="step-name" title="(StepDefinations.fbLoginStepDefination.User_should_be_login_page())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given User should be login page</div>
 
 
-					<div class="node-step">Browser launched</div>
+					<div class="node-step">application is launched</div>
 		</li>
 		<li test-id='4' class='node when Pass' status='Pass'>
-			<div class="step-name" title="(StepDefinations.fbsignupStepDefinations.user_enter_firstname(java.lang.String))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When user enter firstname "Vikshita"</div>
+			<div class="step-name" title="(StepDefinations.fbLoginStepDefination.user_enters_valid_username(java.lang.String))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When user enters valid username "chetan@gmail.com"</div>
 
 
-					<div class="node-step">enter the first name Vikshita</div>
 		</li>
 		<li test-id='5' class='node and Pass' status='Pass'>
-			<div class="step-name" title="(StepDefinations.fbsignupStepDefinations.user_enter_lastname(java.lang.String))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter lastname "Kharat"</div>
+			<div class="step-name" title="(StepDefinations.fbLoginStepDefination.user_enters_valid_password(java.lang.String))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enters valid password "45ck442"</div>
 
 
-					<div class="node-step">enter the last name Kharat</div>
 		</li>
 		<li test-id='6' class='node and Pass' status='Pass'>
-			<div class="step-name" title="(StepDefinations.fbsignupStepDefinations.user_enter_birthday_date(java.lang.String))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter birthday date "10"</div>
+			<div class="step-name" title="(StepDefinations.fbLoginStepDefination.Clicks_on_submitbutton())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And Clicks on submitbutton</div>
 
 
-					<div class="node-step">enter the day 10</div>
 		</li>
 		<li test-id='7' class='node and Pass' status='Pass'>
-			<div class="step-name" title="(StepDefinations.fbsignupStepDefinations.user_enter_birthday_month(java.lang.String))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter birthday month "9"</div>
-
-
-					<div class="node-step">Enter the month9</div>
-		</li>
-		<li test-id='8' class='node and Pass' status='Pass'>
-			<div class="step-name" title="(StepDefinations.fbsignupStepDefinations.user_enter_birthday_year(java.lang.String))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter birthday year "1994"</div>
-
-
-					<div class="node-step">Enter the year1994</div>
-		</li>
-		<li test-id='9' class='node and Pass' status='Pass'>
-			<div class="step-name" title="(StepDefinations.fbsignupStepDefinations.user_select_gender(java.lang.String))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user select gender "-1"</div>
-
-
-					<div class="node-step">Select the gender-1</div>
-		</li>
-		<li test-id='10' class='node and Pass' status='Pass'>
-			<div class="step-name" title="(StepDefinations.fbsignupStepDefinations.user_select_on_customS(java.lang.String))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user select on custom "-1"</div>
-
-
-		</li>
-		<li test-id='11' class='node and Pass' status='Pass'>
-			<div class="step-name" title="(StepDefinations.fbsignupStepDefinations.user_select_the_text(java.lang.String))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user select the text "1"</div>
-
-
-		</li>
-		<li test-id='12' class='node and Pass' status='Pass'>
-			<div class="step-name" title="(StepDefinations.fbsignupStepDefinations.user_enter_mobile_number(java.lang.String))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter mobile number "8521478960"</div>
-
-
-					<div class="node-step">Enter the mobile number8521478960</div>
-		</li>
-		<li test-id='13' class='node and Pass' status='Pass'>
-			<div class="step-name" title="(StepDefinations.fbsignupStepDefinations.user_enter_password(java.lang.String))"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter password "14522qa"</div>
-
-
-					<div class="node-step">Enter the password14522qa</div>
-		</li>
-		<li test-id='14' class='node and Pass' status='Pass'>
-			<div class="step-name" title="(StepDefinations.fbsignupStepDefinations.user_clicks_on_sign_up())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user clicks on sign up</div>
-
-
-		</li>
-		<li test-id='15' class='node then Pass' status='Pass'>
-			<div class="step-name" title="(StepDefinations.fbLoginStepDefination.close_the_browser())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then close the browser</div>
+			<div class="step-name" title="(StepDefinations.fbLoginStepDefination.close_the_browser())"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And close the browser</div>
 
 
 		</li>
 	</ul>
 </div>
-<div class='scenario outline node' test-id='16' status='pass'>
+<div class='scenario outline node' test-id='8' status='pass'>
 
-	<span class='duration right label'>00 00 12.750</span>
+	<span class='duration right label'>00 00 05.816</span>
 	<div class="bdd-test">
-		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario Outline: create facebook acount</div>
+		<div class="scenario-name"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span> Scenario Outline: Validate the login functionality with valid username and password</div>
 	</div>
 	
-		<div class='node-desc'><br><br><table class='markup-table table '><tr><td>firstname</td><td>lastname</td><td>birthday</td><td>birthmonth</td><td>birthyear</td><td>gendername</td><td>emailidname</td><td>passwordname</td></tr><tr><td>chetan</td><td>kadak</td><td>10</td><td>12</td><td>2000</td><td>2</td><td>chetank@gmail.com</td><td>klsjklj47</td></tr><tr><td>shubham</td><td>tibole</td><td>13</td><td>5</td><td>1997</td><td>1</td><td>shubham@gmail.com</td><td>sahha456</td></tr><tr><td>Pawan</td><td>tibole</td><td>21</td><td>7</td><td>2000</td><td>2</td><td>pawan@gmail.com</td><td>hkhskh47</td></tr></table></div>
+		<div class='node-desc'><br><br><table class='markup-table table '><tr><td>username</td><td>password</td></tr><tr><td>Testing@gmail.com</td><td>P23543</td></tr><tr><td>Mahesh@gmail.com</td><td>Pfh3738</td></tr></table></div>
 	
 	
 	<ul class='steps'>
-		<li test-id='17' class='node scenario Pass' status='Pass'>
-			<div class="step-name" title="()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>create facebook acount</div>
+		<li test-id='9' class='node scenario Pass' status='Pass'>
+			<div class="step-name" title="()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Validate the login functionality with valid username and password</div>
 
 				<div class='category-list'>
-						<span class='category label'>@Systemintegrationtesting</span>
+						<span class='category label'>@Systemitegrationtesting</span>
 				</div>
 
 			<ul class='gc steps'>
-				<li test-id='18' class='gc given Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_is_on_facebook_signup_page()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given user is on facebook signup page</h6>
+				<li test-id='10' class='gc given Pass' status='Pass'>
+					<h6 class="step-name" title="StepDefinations.fbLoginStepDefination.User_should_be_login_page()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given User should be login page</h6>
 
-							<div class="node-step">Browser launched</div>
+							<div class="node-step">application is launched</div>
 				</li>
-				<li test-id='19' class='gc when Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_enter_firstname(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When user enter firstname "chetan"</h6>
+				<li test-id='11' class='gc when Pass' status='Pass'>
+					<h6 class="step-name" title="StepDefinations.fbLoginStepDefination.user_enters_valid_usernameandemail(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When user enters valid usernameandemail"Testing@gmail.com"</h6>
 
-							<div class="node-step">enter the first name chetan</div>
+							<div class="node-step">Entered email</div>
+				</li>
+				<li test-id='12' class='gc and Pass' status='Pass'>
+					<h6 class="step-name" title="StepDefinations.fbLoginStepDefination.user_enters_valid_passwordtologin(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enters valid passwordtologin"P23543"</h6>
+
+							<div class="node-step">Entered password</div>
+				</li>
+				<li test-id='13' class='gc and Pass' status='Pass'>
+					<h6 class="step-name" title="StepDefinations.fbLoginStepDefination.Clicks_on_submitbutton()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And Clicks on submitbutton</h6>
+
+				</li>
+				<li test-id='14' class='gc and Pass' status='Pass'>
+					<h6 class="step-name" title="StepDefinations.fbLoginStepDefination.close_the_browser()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And close the browser</h6>
+
+				</li>
+			</ul>
+		</li>
+		<li test-id='15' class='node scenario Pass' status='Pass'>
+			<div class="step-name" title="()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Validate the login functionality with valid username and password</div>
+
+				<div class='category-list'>
+						<span class='category label'>@Systemitegrationtesting</span>
+				</div>
+
+			<ul class='gc steps'>
+				<li test-id='16' class='gc given Pass' status='Pass'>
+					<h6 class="step-name" title="StepDefinations.fbLoginStepDefination.User_should_be_login_page()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given User should be login page</h6>
+
+							<div class="node-step">application is launched</div>
+				</li>
+				<li test-id='17' class='gc when Pass' status='Pass'>
+					<h6 class="step-name" title="StepDefinations.fbLoginStepDefination.user_enters_valid_usernameandemail(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When user enters valid usernameandemail"Mahesh@gmail.com"</h6>
+
+							<div class="node-step">Entered email</div>
+				</li>
+				<li test-id='18' class='gc and Pass' status='Pass'>
+					<h6 class="step-name" title="StepDefinations.fbLoginStepDefination.user_enters_valid_passwordtologin(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enters valid passwordtologin"Pfh3738"</h6>
+
+							<div class="node-step">Entered password</div>
+				</li>
+				<li test-id='19' class='gc and Pass' status='Pass'>
+					<h6 class="step-name" title="StepDefinations.fbLoginStepDefination.Clicks_on_submitbutton()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And Clicks on submitbutton</h6>
+
 				</li>
 				<li test-id='20' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_enter_lastname(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter lastname "kadak"</h6>
-
-							<div class="node-step">enter the last name kadak</div>
-				</li>
-				<li test-id='21' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_enter_birthday_date(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter birthday date "10"</h6>
-
-							<div class="node-step">enter the day 10</div>
-				</li>
-				<li test-id='22' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_enter_birthday_month(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter birthday month "12"</h6>
-
-							<div class="node-step">Enter the month12</div>
-				</li>
-				<li test-id='23' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_enter_birthday_year(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter birthday year "2000"</h6>
-
-							<div class="node-step">Enter the year2000</div>
-				</li>
-				<li test-id='24' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_select_gender(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user select gender "2"</h6>
-
-							<div class="node-step">Select the gender2</div>
-				</li>
-				<li test-id='25' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_enter_mobile_number(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter mobile number "chetank@gmail.com"</h6>
-
-							<div class="node-step">Enter the mobile numberchetank@gmail.com</div>
-				</li>
-				<li test-id='26' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_enter_password(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter password "klsjklj47"</h6>
-
-							<div class="node-step">Enter the passwordklsjklj47</div>
-				</li>
-				<li test-id='27' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_clicks_on_sign_up()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user clicks on sign up</h6>
-
-				</li>
-				<li test-id='28' class='gc then Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbLoginStepDefination.close_the_browser()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then close the browser</h6>
-
-				</li>
-			</ul>
-		</li>
-		<li test-id='29' class='node scenario Pass' status='Pass'>
-			<div class="step-name" title="()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>create facebook acount</div>
-
-				<div class='category-list'>
-						<span class='category label'>@Systemintegrationtesting</span>
-				</div>
-
-			<ul class='gc steps'>
-				<li test-id='30' class='gc given Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_is_on_facebook_signup_page()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given user is on facebook signup page</h6>
-
-							<div class="node-step">Browser launched</div>
-				</li>
-				<li test-id='31' class='gc when Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_enter_firstname(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When user enter firstname "shubham"</h6>
-
-							<div class="node-step">enter the first name shubham</div>
-				</li>
-				<li test-id='32' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_enter_lastname(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter lastname "tibole"</h6>
-
-							<div class="node-step">enter the last name tibole</div>
-				</li>
-				<li test-id='33' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_enter_birthday_date(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter birthday date "13"</h6>
-
-							<div class="node-step">enter the day 13</div>
-				</li>
-				<li test-id='34' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_enter_birthday_month(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter birthday month "5"</h6>
-
-							<div class="node-step">Enter the month5</div>
-				</li>
-				<li test-id='35' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_enter_birthday_year(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter birthday year "1997"</h6>
-
-							<div class="node-step">Enter the year1997</div>
-				</li>
-				<li test-id='36' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_select_gender(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user select gender "1"</h6>
-
-							<div class="node-step">Select the gender1</div>
-				</li>
-				<li test-id='37' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_enter_mobile_number(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter mobile number "shubham@gmail.com"</h6>
-
-							<div class="node-step">Enter the mobile numbershubham@gmail.com</div>
-				</li>
-				<li test-id='38' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_enter_password(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter password "sahha456"</h6>
-
-							<div class="node-step">Enter the passwordsahha456</div>
-				</li>
-				<li test-id='39' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_clicks_on_sign_up()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user clicks on sign up</h6>
-
-				</li>
-				<li test-id='40' class='gc then Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbLoginStepDefination.close_the_browser()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then close the browser</h6>
-
-				</li>
-			</ul>
-		</li>
-		<li test-id='41' class='node scenario Pass' status='Pass'>
-			<div class="step-name" title="()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>create facebook acount</div>
-
-				<div class='category-list'>
-						<span class='category label'>@Systemintegrationtesting</span>
-				</div>
-
-			<ul class='gc steps'>
-				<li test-id='42' class='gc given Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_is_on_facebook_signup_page()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Given user is on facebook signup page</h6>
-
-							<div class="node-step">Browser launched</div>
-				</li>
-				<li test-id='43' class='gc when Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_enter_firstname(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>When user enter firstname "Pawan"</h6>
-
-							<div class="node-step">enter the first name Pawan</div>
-				</li>
-				<li test-id='44' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_enter_lastname(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter lastname "tibole"</h6>
-
-							<div class="node-step">enter the last name tibole</div>
-				</li>
-				<li test-id='45' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_enter_birthday_date(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter birthday date "21"</h6>
-
-							<div class="node-step">enter the day 21</div>
-				</li>
-				<li test-id='46' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_enter_birthday_month(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter birthday month "7"</h6>
-
-							<div class="node-step">Enter the month7</div>
-				</li>
-				<li test-id='47' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_enter_birthday_year(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter birthday year "2000"</h6>
-
-							<div class="node-step">Enter the year2000</div>
-				</li>
-				<li test-id='48' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_select_gender(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user select gender "2"</h6>
-
-							<div class="node-step">Select the gender2</div>
-				</li>
-				<li test-id='49' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_enter_mobile_number(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter mobile number "pawan@gmail.com"</h6>
-
-							<div class="node-step">Enter the mobile numberpawan@gmail.com</div>
-				</li>
-				<li test-id='50' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_enter_password(java.lang.String)"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user enter password "hkhskh47"</h6>
-
-							<div class="node-step">Enter the passwordhkhskh47</div>
-				</li>
-				<li test-id='51' class='gc and Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbsignupStepDefinations.user_clicks_on_sign_up()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And user clicks on sign up</h6>
-
-				</li>
-				<li test-id='52' class='gc then Pass' status='Pass'>
-					<h6 class="step-name" title="StepDefinations.fbLoginStepDefination.close_the_browser()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>Then close the browser</h6>
+					<h6 class="step-name" title="StepDefinations.fbLoginStepDefination.close_the_browser()"><span class='status pass' title='Pass'><i class='material-icons'>check_circle</i></span>And close the browser</h6>
 
 				</li>
 			</ul>
@@ -537,14 +366,14 @@
 			<ul id='category-collection' class='category-collection'>
 				<li class='category displayed active'>
 					<div class='category-heading'>
-						<span class='category-name'>@Systemintegrationtesting</span>
+						<span class='category-name'>@smoketesting</span>
 						<span class='category-status right'>
-						<span class='label pass'>3</span>
+						<span class='label pass'>1</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span status="pass" class='label green accent-4 white-text'>Passed: 3</span>
+							<span status="pass" class='label green accent-4 white-text'>Passed: 1</span>
 							
 							
 						</div>
@@ -559,18 +388,46 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Jul 20, 2025 05:26:58 PM</td>
-										<td class='linked' test-id='17'>create facebook acount</td>
+										<td>Jul 21, 2025 02:28:37 PM</td>
+										<td class='linked' test-id='2'>Validate the login functionality with valid username and password</td>
+										<td><span class='test-status Pass'>Pass</span></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</li>
+				<li class='category displayed active'>
+					<div class='category-heading'>
+						<span class='category-name'>@Systemitegrationtesting</span>
+						<span class='category-status right'>
+						<span class='label pass'>2</span>
+						</span>
+					</div>
+					<div class='category-content hide'>
+						<div class='category-status-counts'>
+							<span status="pass" class='label green accent-4 white-text'>Passed: 2</span>
+							
+							
+						</div>
+						<div class='category-tests'>
+							<table class='bordered table-results'>
+								<thead>
+									<tr>
+										<th>Timestamp</th>
+										<th>TestName</th>
+										<th>Status</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Jul 21, 2025 02:28:41 PM</td>
+										<td class='linked' test-id='9'>Validate the login functionality with valid username and password</td>
 										<td><span class='test-status Pass'>Pass</span></td>
 									</tr>
 									<tr>
-										<td>Jul 20, 2025 05:27:03 PM</td>
-										<td class='linked' test-id='29'>create facebook acount</td>
-										<td><span class='test-status Pass'>Pass</span></td>
-									</tr>
-									<tr>
-										<td>Jul 20, 2025 05:27:07 PM</td>
-										<td class='linked' test-id='41'>create facebook acount</td>
+										<td>Jul 21, 2025 02:28:44 PM</td>
+										<td class='linked' test-id='15'>Validate the login functionality with valid username and password</td>
 										<td><span class='test-status Pass'>Pass</span></td>
 									</tr>
 								</tbody>
@@ -602,41 +459,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Jul 20, 2025 05:26:40 PM</td>
-										<td class='linked' test-id='2'>create facebook acount</td>
-										<td><span class='test-status Pass'>Pass</span></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</li>
-				<li class='category displayed active'>
-					<div class='category-heading'>
-						<span class='category-name'>@smoketesting</span>
-						<span class='category-status right'>
-						<span class='label pass'>1</span>
-						</span>
-					</div>
-					<div class='category-content hide'>
-						<div class='category-status-counts'>
-							<span status="pass" class='label green accent-4 white-text'>Passed: 1</span>
-							
-							
-						</div>
-						<div class='category-tests'>
-							<table class='bordered table-results'>
-								<thead>
-									<tr>
-										<th>Timestamp</th>
-										<th>TestName</th>
-										<th>Status</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Jul 20, 2025 05:26:40 PM</td>
-										<td class='linked' test-id='2'>create facebook acount</td>
+										<td>Jul 21, 2025 02:28:37 PM</td>
+										<td class='linked' test-id='2'>Validate the login functionality with valid username and password</td>
 										<td><span class='test-status Pass'>Pass</span></td>
 									</tr>
 								</tbody>
@@ -667,31 +491,31 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Scenarios
-					<div class='panel-lead'>4</div>
+					<div class='panel-lead'>3</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>46</div>
+					<div class='panel-lead'>15</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Jul 20, 2025 05:26:39 PM</div>
+					<div class='panel-lead'>Jul 21, 2025 02:28:37 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Jul 20, 2025 05:27:11 PM</div>
+			 		<div class='panel-lead'>Jul 21, 2025 02:28:47 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>00 00 31.760</div>
+					<div class='panel-lead'>00 00 10.183</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -707,16 +531,7 @@
 							<th>Passed %</th>
 						</tr>
 						<tr>
-							<td>@Systemintegrationtesting</td>
-							<td>3</td>
-							<td>0</td>
-							<td>0</td>
-							<td>
-									100%
-							</td>
-						</tr>
-						<tr>
-							<td>@regressiontesting</td>
+							<td>@smoketesting</td>
 							<td>1</td>
 							<td>0</td>
 							<td>0</td>
@@ -725,7 +540,16 @@
 							</td>
 						</tr>
 						<tr>
-							<td>@smoketesting</td>
+							<td>@Systemitegrationtesting</td>
+							<td>2</td>
+							<td>0</td>
+							<td>0</td>
+							<td>
+									100%
+							</td>
+						</tr>
+						<tr>
+							<td>@regressiontesting</td>
 							<td>1</td>
 							<td>0</td>
 							<td>0</td>
@@ -751,16 +575,16 @@
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				childCount: 4,
-				passChild: 4,
+				childCount: 3,
+				passChild: 3,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
-				grandChildCount: 46,
-				passGrandChild: 46,
+				grandChildCount: 15,
+				passGrandChild: 15,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
@@ -772,7 +596,7 @@
 		
 		<script>
 			var timeline = {
-			        "Sign Up feature":30.958
+			        "login feature":9.63
 			};
 		</script>
 		

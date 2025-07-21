@@ -1,9 +1,13 @@
 Pages\loginPageCheck.class
+T1\C1.class
 Pages\signupPage.class
+T1\C2.class
 TestcaseExecution\ExecuteTestCase.class
 StepDefinations\fbLoginStepDefination.class
 TestcaseExecution\signupTestCase.class
 GenericMethodPage\loginGeneric.class
+TestcaseExecution\googleClick.class
+T1\package-info.class
 TestcaseExecution\package-info.class
 Pages\googleclick.class
 GenericMethodPage\package-info.class
@@ -12,4 +16,5 @@ StepDefinations\fbsignupStepDefinations.class
 StepDefinations\package-info.class
 GenericMethodPage\Signupgeneric.class
 Pages\package-info.class
+T1\C3.class
 BasePages\loginBaseC.class
